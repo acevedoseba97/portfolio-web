@@ -834,6 +834,7 @@ footer .arriba {
 
   .portfolio .galeria .proyecto {
     max-width: 100%;
+    margin-bottom: 40px;
   }
 
   .portfolio .galeria .proyecto img {
