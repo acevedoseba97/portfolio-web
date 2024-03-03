@@ -27,7 +27,7 @@
             <li><a href="#sobremi">SOBRE MI</a></li>
             <li><a href="#skills">SKILLS</a></li>
             <li><a href="#curriculum">CURRICULUM</a></li>
-            <li><a href="#portfolio">PORTFOLIO</a></li>
+            <li><a href="#proyectos">PROYECTOS</a></li>
             <li><a href="#contacto">CONTACTO</a></li>
           </ul>
         </nav>
@@ -41,33 +41,33 @@
     <section id="inicio" class="inicio">
       <div class="contenido-banner">
         <div class="contenedor-imagen">
-          <img src="img/perfil.jpg" alt="Foto de perfil" />
+          <img src="img/perfil.webp" alt="Foto de perfil" />
         </div>
         <h1>SEBASTIAN ACEVEDO</h1>
         <h2>Desarrollador Web</h2>
         <div class="redes">
           <a
-            href="https://www.facebook.com/seba.acevedo.97/"
+            href="https://github.com/acevedoseba97"
             target="_blank"
-            rel="noopener"
-            ><i class="fa-brands fa-facebook-f"></i
+            rel="noopener noreferrer noreferrer"
+            ><i class="fa-brands fa-github"></i
           ></a>
           <a
             href="https://twitter.com/AcevedoSeba787"
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
             ><i class="fa-brands fa-x-twitter"></i
           ></a>
           <a
             href="https://www.instagram.com/acevedoseba24/"
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
             ><i class="fa-brands fa-instagram"></i
           ></a>
           <a
             href="https://www.linkedin.com/in/acevedosebastian97/"
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
             ><i class="fa-brands fa-linkedin-in"></i
           ></a>
         </div>
@@ -161,7 +161,7 @@
             </div>
           </div>
         </div>
-        <button>
+        <button id="downloadCV">
           <a href="assets/curriculum.pdf" download="CV">Descargar CV</a>
           <i class="fa-solid fa-download"></i>
           <span class="overlay"></span>
@@ -217,13 +217,22 @@
           </div>
 
           <div class="skill">
+            <h3>Tailwind CSS</h3>
+            <img
+              class="icono icono-tarjeta"
+              src="img/skills/tailwind.png"
+              alt="Tailwind CSS"
+            />
+          </div>
+
+          <!--   <div class="skill">
             <h3>PHP</h3>
             <img
               class="icono icono-tarjeta"
               src="img/skills/php.png"
               alt="PHP"
             />
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
@@ -261,7 +270,7 @@
               </p>
               <img
                 class="cert-imagen"
-                src="img/degrees/IMG_20240102_161818535.jpg"
+                src="img/degrees/IMG_20240102_161818535.webp"
                 alt="Título de inglés"
               />
               <div class="conectori">
@@ -278,7 +287,7 @@
               <p>En este año obtuve el certificado de inglés internacional.</p>
               <img
                 class="cert-imagen"
-                src="img/degrees/IMG_20240102_161836431.jpg"
+                src="img/degrees/IMG_20240102_161836431.webp"
                 alt="Título de inglés internacional"
               />
               <div class="conectori">
@@ -298,7 +307,7 @@
               </p>
               <img
                 class="cert-imagen"
-                src="img/degrees/IMG_20240102_161307203.jpg"
+                src="img/degrees/IMG_20240102_161307203.webp"
                 alt="Título intermedio de Profesor de inglés para Educación Primaria"
               />
               <div class="conectori">
@@ -344,7 +353,7 @@
                   class="cv-enlace"
                   href="https://www.instagram.com/p/Clgb4GWrI_7/"
                   target="_blank"
-                  rel="noopener"
+                  rel="noopener noreferrer"
                   >Ver enlace de interés</a
                 >
               </p>
@@ -385,75 +394,100 @@
       </div>
     </section>
 
-    <!-- SECCIÓN PORTFOLIO -->
-    <section id="portfolio" class="portfolio">
+    <!-- SECCIÓN PROYECTOS -->
+    <section id="proyectos" class="proyectos">
       <div class="contenido-seccion">
-        <h2>PORTFOLIO</h2>
+        <h2>Proyectos</h2>
         <div class="galeria">
           <div class="proyecto">
             <img src="img/gt4-blog-min.jpg" alt="Blog de Gran Turismo" />
-            <div class="overlay">
+            <h3>Gran Turismo 4 Blog</h3>
+            <p>HTML + CSS + JavaScript</p>
+            <hr />
+            <p>
+              Proyecto personal y además fue el primer proyecto usando
+              tecnologías frontend. Es un blog que muestra una recolección
+              tabular de experiencias basadas en un videojuego, combinando un
+              pasatiempo personal con tecnología frontend.
+            </p>
+            <div class="proyecto-btn">
+              <a
+                href="https://github.com/acevedoseba97/gt4-blog"
+                target="_blank"
+                rel="noopener noreferrer"
+                >GitHub</a
+              >
               <a
                 href="https://acevedoseba97.github.io/gt4-blog/"
                 target="_blank"
-                rel="noopener"
+                rel="noopener noreferrer"
+                >Demo</a
               >
-                <h3>Gran Turismo 4 Blog</h3>
-                <p>HTML + CSS + JavaScript</p>
-              </a>
             </div>
           </div>
+
           <div class="proyecto">
             <img src="img/weather-app-min.jpg" alt="App Clima" />
-            <div class="overlay">
-              <a href="img/weather-app-min.jpg" target="_blank" rel="noopener">
-                <h3>App Clima</h3>
-                <p>HTML + CSS + AJAX</p>
-              </a>
+            <h3>App Clima</h3>
+            <p>HTML + CSS + AJAX</p>
+            <hr />
+            <p>
+              Aplicación que envía peticiones a una API para obtener información
+              del clima de diferentes regiones. Cuenta con imágenes adaptables a
+              la condición climática del momento. Diseño responsivo.
+            </p>
+            <div class="proyecto-btn">
+              <a
+                href="https://github.com/acevedoseba97/weather-app"
+                target="_blank"
+                rel="noopener noreferrer"
+                >GitHub</a
+              >
             </div>
           </div>
-          <!-- <div class="proyecto">
-            <img src="img/p1.jpg" alt="" />
-            <div class="overlay">
-              <h3>Diseño Creativo</h3>
-              <p>Fotografía</p>
-            </div>
-          </div>
+
           <div class="proyecto">
-            <img src="img/p2.jpg" alt="" />
-            <div class="overlay">
-              <h3>Diseño Creativo</h3>
-              <p>Fotografía</p>
+            <img src="img/react-todo-min.jpg" alt="App Clima" />
+            <h3>App ToDo</h3>
+            <p>React + Tailwind</p>
+            <hr />
+            <p>
+              Aplicación de lista de tareas. Cuenta con el uso de localStorage
+              para almacenar datos en el navegador. Diseño responsivo.
+            </p>
+            <div class="proyecto-btn">
+              <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
+              <a
+                href="https://acedev-todoapp.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Demo</a
+              >
             </div>
           </div>
+
           <div class="proyecto">
-            <img src="img/p3.jpg" alt="" />
-            <div class="overlay">
-              <h3>Diseño Creativo</h3>
-              <p>Fotografía</p>
+            <img
+              src="img/react-redux-shoppingcart-min.jpg"
+              alt="Shopping Cart"
+            />
+            <h3>Carrito de compras</h3>
+            <p>React + Redux + Tailwind</p>
+            <hr />
+            <p>
+              Aplicación que simula un carrito de compras con implementación de
+              la biblioteca Redux. Diseño responsivo.
+            </p>
+            <div class="proyecto-btn">
+              <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
+              <a
+                href="https://acedev-shoppcart-app.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Demo</a
+              >
             </div>
           </div>
-          <div class="proyecto">
-            <img src="img/p4.jpg" alt="" />
-            <div class="overlay">
-              <h3>Diseño Creativo</h3>
-              <p>Fotografía</p>
-            </div>
-          </div>
-          <div class="proyecto">
-            <img src="img/p5.jpg" alt="" />
-            <div class="overlay">
-              <h3>Diseño Creativo</h3>
-              <p>Fotografía</p>
-            </div>
-          </div>
-          <div class="proyecto">
-            <img src="img/p6.jpg" alt="" />
-            <div class="overlay">
-              <h3>Diseño Creativo</h3>
-              <p>Fotografía</p>
-            </div>
-          </div> -->
         </div>
       </div>
     </section>
@@ -523,25 +557,25 @@
         <a
           href="https://www.facebook.com/seba.acevedo.97/"
           target="_blank"
-          rel="noopener"
-          ><i class="fa-brands fa-facebook-f"></i
+          rel="noopener noreferrer"
+          ><i class="fa-brands fa-github"></i
         ></a>
         <a
           href="https://twitter.com/AcevedoSeba787"
           target="_blank"
-          rel="noopener"
+          rel="noopener noreferrer"
           ><i class="fa-brands fa-x-twitter"></i
         ></a>
         <a
           href="https://www.instagram.com/acevedoseba24/"
           target="_blank"
-          rel="noopener"
+          rel="noopener noreferrer"
           ><i class="fa-brands fa-instagram"></i
         ></a>
         <a
           href="https://www.linkedin.com/in/acevedosebastian97/"
           target="_blank"
-          rel="noopener"
+          rel="noopener noreferrer"
           ><i class="fa-brands fa-linkedin-in"></i
         ></a>
       </div>

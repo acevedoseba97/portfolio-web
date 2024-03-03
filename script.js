@@ -34,6 +34,12 @@ d.addEventListener("click", (e) => {
   }
 });
 
+//detecto el click del pdf del CV
+d.getElementById("downloadCV").addEventListener("click", function () {
+  let link = this.querySelector("a");
+  link.click();
+});
+
 //Función para el formulario de contacto
 function contactForm() {
   const $form = d.querySelector(".contact-form"),
