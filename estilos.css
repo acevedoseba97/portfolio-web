@@ -807,6 +807,10 @@ footer .arriba {
     display: block;
   }
 
+  .sobremi .fila .col {
+    width: fit-content;
+  }
+
   .skills .contenido-seccion .skills-contenedor {
     display: flex;
     flex-direction: column;
